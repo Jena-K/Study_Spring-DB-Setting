@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.hellospring.repository.MemoryMemberRepositoryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-10T22:47:42" hostname="DESKTOP-I7C29AN" time="0.02">
+  <properties/>
+  <testcase name="save()" classname="hello.hellospring.repository.MemoryMemberRepositoryTest" time="0.02"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
