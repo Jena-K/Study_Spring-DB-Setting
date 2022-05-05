@@ -4,12 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ff3cdde-3463-4b6d-82d2-cd08b38894db" name="Changes" comment="[FEAT]&#10;&#10;add join the member service">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="6ff3cdde-3463-4b6d-82d2-cd08b38894db" name="Changes" comment="[FEAT]&#10;&#10;# DB&#10;+ JdbcMemberRepository&#10;+ JdbcTemplate">
+      <change afterPath="$PROJECT_DIR$/.gradle/7.4.1/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.4.1/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/hello.hellospring.service.MemberServiceIntegrationTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/members/memberList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-hello.hellospring.service.MemberServiceIntegrationTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/repository/JdbcTemplateMemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/hellospring/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/hello/hellospring/SpringConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/hellospring/domain/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/hello/hellospring/domain/Member.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/hellospring/service/MemberServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/hello/hellospring/service/MemberServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/hello.hellospring.service.MemberServiceTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/hello.hellospring.service.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/hello.hellospring.service.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-hello.hellospring.service.MemberServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/hellospring/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/hellospring/service/MemberServiceIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/hellospring/service/MemberServiceIntegrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +49,20 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hello-spring" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -32,8 +70,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -87,9 +126,81 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="hello.hellospring.service" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hello.hellospring.service" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.HelloSpringApplication">
-    <configuration name="MemberServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.MemberServiceIntegrationTest">
+    <configuration name="MemberServiceIntegrationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.hellospring.service.MemberServiceIntegrationTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MemberServiceIntegrationTest.회원가입" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.hellospring.service.MemberServiceIntegrationTest.회원가입&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MemberServiceIntegrationTest.중복_회원_예외" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.hellospring.service.MemberServiceIntegrationTest.중복_회원_예외&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MemberServiceTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -103,29 +214,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;hello.hellospring.service.MemberServiceTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MemberServiceTest.회원가입" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;hello.hellospring.service.MemberServiceTest.회원가입&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -158,52 +246,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MemoryMemberRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;hello.hellospring.repository.MemoryMemberRepositoryTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MemoryMemberRepositoryTest.save" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;hello.hellospring.repository.MemoryMemberRepositoryTest.save&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="HelloSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hello-spring.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="hello.hellospring.HelloSpringApplication" />
@@ -213,11 +255,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MemberServiceTest" />
+        <item itemvalue="Gradle.MemberServiceIntegrationTest" />
+        <item itemvalue="Gradle.MemberServiceIntegrationTest.회원가입" />
+        <item itemvalue="Gradle.MemberServiceIntegrationTest.중복_회원_예외" />
+        <item itemvalue="Gradle.MemberServiceTest (1)" />
         <item itemvalue="Gradle.MemberServiceTest.중복_회원_예외" />
-        <item itemvalue="Gradle.MemberServiceTest.회원가입" />
-        <item itemvalue="Gradle.MemoryMemberRepositoryTest" />
-        <item itemvalue="Gradle.MemoryMemberRepositoryTest.save" />
       </list>
     </recent_temporary>
   </component>
@@ -235,6 +277,13 @@
       <workItem from="1650093745974" duration="13756000" />
       <workItem from="1650238902137" duration="3122000" />
       <workItem from="1650321222421" duration="261000" />
+      <workItem from="1650321520862" duration="729000" />
+      <workItem from="1650980919723" duration="4723000" />
+      <workItem from="1651375258230" duration="651000" />
+      <workItem from="1651375943229" duration="7529000" />
+      <workItem from="1651397034351" duration="3117000" />
+      <workItem from="1651423594966" duration="99000" />
+      <workItem from="1651762234873" duration="5645000" />
     </task>
     <task id="LOCAL-00001" summary="[FEAT]&#10;&#10;GIT commit test">
       <created>1650042275585</created>
@@ -271,7 +320,28 @@
       <option name="project" value="LOCAL" />
       <updated>1650320885366</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[TEST]&#10;&#10;Version Check">
+      <created>1650321596049</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650321596049</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[FEAT]&#10;&#10;Check Member List">
+      <created>1650988034220</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1650988034220</updated>
+    </task>
+    <task id="LOCAL-00008" summary="[FEAT]&#10;&#10;Change Repository&#10;Memory -&gt; H2 DB">
+      <created>1651423682856</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1651423682856</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +363,21 @@
     <MESSAGE value="[FEAT]&#10;&#10;GIT commit test" />
     <MESSAGE value="[FEAT]&#10;&#10;Test Case: User Repository" />
     <MESSAGE value="[FEAT]&#10;&#10;add join the member service" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FEAT]&#10;&#10;add join the member service" />
+    <MESSAGE value="[TEST]&#10;&#10;Version Check" />
+    <MESSAGE value="[FEAT]&#10;&#10;Check Member List" />
+    <MESSAGE value="[FEAT]&#10;&#10;Change Repository&#10;Memory -&gt; H2 DB" />
+    <MESSAGE value="[FEAT]&#10;&#10;# DB&#10;+ JdbcMemberRepository&#10;+ JdbcTemplate" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FEAT]&#10;&#10;# DB&#10;+ JdbcMemberRepository&#10;+ JdbcTemplate" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.h2.jdbc.JdbcSQLDataException" package="org.h2.jdbc" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
