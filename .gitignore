@@ -165,7 +165,8 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,intellij,java
 /.gradle/
-!/settings.gradle
-!/hello-spring.iml
-!/.idea/
-!/gradle/
+/settings.gradle
+/hello-spring.iml
+/.idea/
+/gradle/
+/build/
