@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ff3cdde-3463-4b6d-82d2-cd08b38894db" name="Changes" comment="[FEAT]&#10;&#10;# DB&#10;+ JdbcMemberRepository&#10;+ JdbcTemplate">
-      <change afterPath="$PROJECT_DIR$/.gradle/7.4.1/checksums/md5-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.4.1/checksums/sha1-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/hello.hellospring.service.MemberServiceIntegrationTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/members/memberList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-hello.hellospring.service.MemberServiceIntegrationTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/repository/JdbcTemplateMemberRepository.java" afterDir="false" />
+    <list default="true" id="6ff3cdde-3463-4b6d-82d2-cd08b38894db" name="Changes" comment="[FEAT]&#10;&#10;set gitignore">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -20,21 +17,12 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/hellospring/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/hello/hellospring/SpringConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/hellospring/domain/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/hello/hellospring/domain/Member.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/hellospring/service/MemberServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/hello/hellospring/service/MemberServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/hello.hellospring.service.MemberServiceTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/hello.hellospring.service.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/hello.hellospring.service.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-hello.hellospring.service.MemberServiceTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/hellospring/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hello/hellospring/service/MemberServiceIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/hellospring/service/MemberServiceIntegrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,11 +75,25 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="27qJymT2CsH6YbC1LzIWf5ZmYy7" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -120,6 +122,7 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\08.Codes\spring_basic\src" />
       <recent name="D:\08.Codes\spring_basic\src\main\resources\templates\members" />
       <recent name="D:\08.Codes\spring_basic\src\main\resources\templates" />
     </key>
@@ -130,7 +133,7 @@
       <recent name="hello.hellospring.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MemberServiceIntegrationTest">
+  <component name="RunManager" selected="Spring Boot.HelloSpringApplication">
     <configuration name="MemberServiceIntegrationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -255,11 +258,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MemberServiceIntegrationTest" />
-        <item itemvalue="Gradle.MemberServiceIntegrationTest.회원가입" />
-        <item itemvalue="Gradle.MemberServiceIntegrationTest.중복_회원_예외" />
-        <item itemvalue="Gradle.MemberServiceTest (1)" />
         <item itemvalue="Gradle.MemberServiceTest.중복_회원_예외" />
+        <item itemvalue="Gradle.MemberServiceTest (1)" />
+        <item itemvalue="Gradle.MemberServiceIntegrationTest.중복_회원_예외" />
+        <item itemvalue="Gradle.MemberServiceIntegrationTest.회원가입" />
+        <item itemvalue="Gradle.MemberServiceIntegrationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -284,6 +287,13 @@
       <workItem from="1651397034351" duration="3117000" />
       <workItem from="1651423594966" duration="99000" />
       <workItem from="1651762234873" duration="5645000" />
+      <workItem from="1651793759953" duration="254000" />
+      <workItem from="1651920045885" duration="1290000" />
+      <workItem from="1651931479993" duration="1441000" />
+      <workItem from="1651935076432" duration="2843000" />
+      <workItem from="1651965932535" duration="170000" />
+      <workItem from="1651966130909" duration="771000" />
+      <workItem from="1654053530044" duration="1544000" />
     </task>
     <task id="LOCAL-00001" summary="[FEAT]&#10;&#10;GIT commit test">
       <created>1650042275585</created>
@@ -341,7 +351,28 @@
       <option name="project" value="LOCAL" />
       <updated>1651423682856</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="[FEAT]&#10;&#10;# DB&#10;+ JdbcMemberRepository&#10;+ JdbcTemplate">
+      <created>1651793832228</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1651793832228</updated>
+    </task>
+    <task id="LOCAL-00010" summary="[FEAT]&#10;&#10;# DB add&#10;+ JpaMemberRepository">
+      <created>1651935794565</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1651935794565</updated>
+    </task>
+    <task id="LOCAL-00011" summary="[FEAT]&#10;&#10;set gitignore">
+      <created>1651966323264</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1651966323264</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +383,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -367,7 +404,9 @@
     <MESSAGE value="[FEAT]&#10;&#10;Check Member List" />
     <MESSAGE value="[FEAT]&#10;&#10;Change Repository&#10;Memory -&gt; H2 DB" />
     <MESSAGE value="[FEAT]&#10;&#10;# DB&#10;+ JdbcMemberRepository&#10;+ JdbcTemplate" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FEAT]&#10;&#10;# DB&#10;+ JdbcMemberRepository&#10;+ JdbcTemplate" />
+    <MESSAGE value="[FEAT]&#10;&#10;# DB add&#10;+ JpaMemberRepository" />
+    <MESSAGE value="[FEAT]&#10;&#10;set gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FEAT]&#10;&#10;set gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
