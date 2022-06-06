@@ -9,7 +9,7 @@ import javax.transaction.Transactional;
 import java.util.List;
 import java.util.Optional;
 
-@
+
 public class MemberService {
     private final MemberRepository memberRepository;
 
@@ -34,6 +34,9 @@ public class MemberService {
             });
     }
 
+    /**
+     * 전체 회원 조회
+     */
     public List<Member> findMembers (){
             return memberRepository.findAll();
     }
